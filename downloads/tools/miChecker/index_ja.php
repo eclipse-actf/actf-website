@@ -49,6 +49,15 @@
 	から入手してください。また、miCheckerの開発手順等は<a href="build_ja.php">こちら</a>で公開されていますので、あわせて是非ご活用下さい。
     </p>
 
+    <h2 id="download">miChecker に関する問い合わせ</h2>
+    <p>
+    miCheckerについての技術的な質問や問い合わせは、ACTFプロジェクトの<a href="https://www.eclipse.org/forums/index.php/f/136/">フォーラム</a>で行うことが出来ます。  <br/>
+    もし、ACTF に起因する問題を発見した場合は、次の<a href="https://bugs.eclipse.org/bugs/enter_bug.cgi?product=ACTF">Bugzilla(問題報告サイト )</a>より報告を行うことが出来ます。(報告の際、Componentは「examples」をご選択ください。)<br/>
+    フォーラム、問題報告サイトのいずれにおいても、日本語での対応が可能ですので、是非ご活用ください。
+    </p>
+    <p>(フォーラムへの投稿や問題報告にはEclipseのアカウントが必要になります。初めての際は<a href="https://accounts.eclipse.org/user/register">登録ページ</a>より、アカウントの作成をお願いします。 )
+
+
 <!--    
     <h2 id="misc">miChecker 関連情報</h2>
     <p>
