@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ Copyright (c) 2011,2023 IBM Corporation and others.
+ All rights reserved. This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v1.0
+ which accompanies this distribution, and is available at
+ http://www.eclipse.org/legal/epl-v10.html
+
+ Contributors:
+     IBM Corporation - initial API and implementation, git migration
+-->
+<psf version="2.0">
+<provider id="org.eclipse.egit.core.GitProvider">
+<project reference="1.0,https://github.com/eclipse-actf/org.eclipse.actf.git,master,org.eclipse.actf.ai.voice"/>
+<project reference="1.0,https://github.com/eclipse-actf/org.eclipse.actf.git,master,org.eclipse.actf.core"/>
+<project reference="1.0,https://github.com/eclipse-actf/org.eclipse.actf.git,master,org.eclipse.actf.examples.michecker"/>
+<project reference="1.0,https://github.com/eclipse-actf/org.eclipse.actf.git,master,org.eclipse.actf.examples.michecker-feature"/>
+<project reference="1.0,https://github.com/eclipse-actf/org.eclipse.actf.git,master,org.eclipse.actf.examples.michecker.doc"/>
+<project reference="1.0,https://github.com/eclipse-actf/org.eclipse.actf.git,master,org.eclipse.actf.examples.michecker.doc.nl1"/>
+<project reference="1.0,https://github.com/eclipse-actf/org.eclipse.actf.git,master,org.eclipse.actf.examples.michecker.nl1-feature"/>
+<project reference="1.0,https://github.com/eclipse-actf/org.eclipse.actf.git,master,org.eclipse.actf.mediator"/>
+<project reference="1.0,https://github.com/eclipse-actf/org.eclipse.actf.git,master,org.eclipse.actf.model.dom.html"/>
+<project reference="1.0,https://github.com/eclipse-actf/org.eclipse.actf.git,master,org.eclipse.actf.model.ui"/>
+<project reference="1.0,https://github.com/eclipse-actf/org.eclipse.actf.git,master,org.eclipse.actf.model.ui.editors.edge"/>
+<project reference="1.0,https://github.com/eclipse-actf/org.eclipse.actf.git,master,org.eclipse.actf.ui"/>
+<project reference="1.0,https://github.com/eclipse-actf/org.eclipse.actf.git,master,org.eclipse.actf.util.win32"/>
+<project reference="1.0,https://github.com/eclipse-actf/org.eclipse.actf.git,master,org.eclipse.actf.validation.html"/>
+<project reference="1.0,https://github.com/eclipse-actf/org.eclipse.actf.git,master,org.eclipse.actf.visualization"/>
+<project reference="1.0,https://github.com/eclipse-actf/org.eclipse.actf.git,master,org.eclipse.actf.visualization.blind"/>
+<project reference="1.0,https://github.com/eclipse-actf/org.eclipse.actf.git,master,org.eclipse.actf.visualization.blind.html"/>
+<project reference="1.0,https://github.com/eclipse-actf/org.eclipse.actf.git,master,org.eclipse.actf.visualization.engines.blind"/>
+<project reference="1.0,https://github.com/eclipse-actf/org.eclipse.actf.git,master,org.eclipse.actf.visualization.engines.blind.html"/>
+<project reference="1.0,https://github.com/eclipse-actf/org.eclipse.actf.git,master,org.eclipse.actf.visualization.engines.lowvision"/>
+<project reference="1.0,https://github.com/eclipse-actf/org.eclipse.actf.git,master,org.eclipse.actf.visualization.engines.voicebrowser"/>
+<project reference="1.0,https://github.com/eclipse-actf/org.eclipse.actf.git,master,org.eclipse.actf.visualization.eval"/>
+<project reference="1.0,https://github.com/eclipse-actf/org.eclipse.actf.git,master,org.eclipse.actf.visualization.lowvision"/>
+<project reference="1.0,https://github.com/eclipse-actf/org.eclipse.actf.git,master,org.eclipse.actf.visualization.ui.report"/>
+</provider>
+</psf>
