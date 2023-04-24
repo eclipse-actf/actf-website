@@ -17,9 +17,9 @@
 $Nav->setLinkList(array());
 $Nav->addCustomNav("Information about ACTF", "/projects/project_summary.php?projectid=technology.actf", "", 1);
 
-$Nav->addCustomNav("Developer Resources", 'https://www.eclipse.org/actf/contributors.php', "", 1);
-$Nav->addCustomNav("Downloads", 'https://www.eclipse.org/actf/docs/', "", 1);
-$Nav->addCustomNav("Documentation", 'https://www.eclipse.org/actf/docs/', "", 1);
+$Nav->addCustomNav("Developer Resources", '/actf/contributors.php', "", 1);
+$Nav->addCustomNav("Downloads", '/actf/docs/', "", 1);
+$Nav->addCustomNav("Documentation", '/actf/docs/', "", 1);
 $Nav->addCustomNav("Project Wiki", 'https://wiki.eclipse.org/ACTF', "", 1);
 $Nav->addCustomNav("Team", "/actf/team.php", "", 1);
 $Nav->addCustomNav("Mailing Lists", 'https://accounts.eclipse.org/mailing-list/actf-dev', "", 1);
