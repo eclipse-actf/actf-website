@@ -1,18 +1,16 @@
 <?php
-
-	require_once($_SERVER['DOCUMENT_ROOT'] . "/actf/common/navUtil.class.php");
-	$navUtil = new NavUtil("technology.actf");
-
 	# PHP for Standard Left Menu
-	$Nav->setLinkList( array() );
-	$Nav->addCustomNav( "Information about ACTF", "/projects/project_summary.php?projectid=technology.actf", "", 1  );
-	$Nav->addCustomNav("Developer Resources", 	$navUtil->contributorsurl, "", 1);
-	$Nav->addCustomNav("Downloads",				$navUtil->downloadsurl, "", 1);
-	$Nav->addCustomNav("Team", 					"/actf/team.php", "", 1);
-	$Nav->addCustomNav("Project Wiki", 			$navUtil->wikiurl, "", 1);
-	$Nav->addCustomNav("Mailing Lists", 		$navUtil->mailinglists, "", 1);
-	$Nav->addCustomNav("Bugs", 					$navUtil->bugzilla, "", 1);
-	
+	$Nav->setLinkList(array());
+	$Nav->addCustomNav("Information about ACTF", "/projects/project_summary.php?projectid=technology.actf", "", 1);
+	$Nav->addCustomNav("Developer Resources", '/actf/contributors.php', "", 1);
+	$Nav->addCustomNav("Downloads", '/actf/docs/', "", 1);
+	$Nav->addCustomNav("Documentation", '/actf/docs/', "", 1);
+	$Nav->addCustomNav("Project Wiki", 'https://wiki.eclipse.org/ACTF', "", 1);
+	$Nav->addCustomNav("Team", "/actf/team.php", "", 1);
+	$Nav->addCustomNav("Mailing Lists", 'https://accounts.eclipse.org/mailing-list/actf-dev', "", 1);
+	$Nav->addCustomNav("Bugs", 'https://bugs.eclipse.org/bugs/buglist.cgi?bug_status=__open__&list_id=21343437&product=ACTF', "", 1);
+
+
 	# Add page-specific Nav bars here
 	# Format is Link text, link URL (can be http://www.someothersite.com/), target (_self, _blank), level (1, 2 or 3)
 	# $Nav->addNavSeparator("My Page Links", 	"downloads.php");
