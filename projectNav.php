@@ -15,13 +15,13 @@
 
 // PHP for Standard Left Menu.
 $Nav->setLinkList(array());
-$Nav->addCustomNav("Information about ACTF", "/actf/", "", 1);
+$Nav->addCustomNav("Information about ACTF", "https://projects.eclipse.org/projects/technology.actf", "", 1);
 
 $Nav->addCustomNav("Developer Resources", '/actf/contributors.php', "", 1);
-$Nav->addCustomNav("Downloads", '/actf/docs/', "", 1);
+$Nav->addCustomNav("Downloads", '/actf/downloads/', "", 1);
 $Nav->addCustomNav("Documentation", '/actf/docs/', "", 1);
-$Nav->addCustomNav("Project Wiki", 'https://wiki.eclipse.org/ACTF', "", 1);
-$Nav->addCustomNav("Team", "/actf/team.php", "", 1);
+// $Nav->addCustomNav("Project Wiki", 'https://wiki.eclipse.org/ACTF', "", 1);
+$Nav->addCustomNav("Team", "https://projects.eclipse.org/projects/technology.actf/who", "", 1);
 $Nav->addCustomNav("Mailing Lists", 'https://accounts.eclipse.org/mailing-list/actf-dev', "", 1);
 $Nav->addCustomNav("Issues", 'https://github.com/eclipse-actf/org.eclipse.actf/issues', "", 1);
 
