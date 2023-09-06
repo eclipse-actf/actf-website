@@ -23,7 +23,7 @@ $Nav->addCustomNav("Documentation", '/actf/docs/', "", 1);
 $Nav->addCustomNav("Project Wiki", 'https://wiki.eclipse.org/ACTF', "", 1);
 $Nav->addCustomNav("Team", "/actf/team.php", "", 1);
 $Nav->addCustomNav("Mailing Lists", 'https://accounts.eclipse.org/mailing-list/actf-dev', "", 1);
-$Nav->addCustomNav("Issues", 'https://github.com/eclipse-actf/actf-website/issues', "", 1);
+$Nav->addCustomNav("Issues", 'https://github.com/eclipse-actf/org.eclipse.actf/issues', "", 1);
 
 
 
