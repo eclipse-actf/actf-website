@@ -13,7 +13,7 @@
 	#****************************************************************************
 	
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "ACTF - miChecker 開発手順";
+	$pageTitle 		= "miChecker 開発手順";
 	$pageKeywords	= "Accessibility Tools Framework, miChecker, accessibility, ACTF, Eclipse";
 	$pageAuthor		= "Kentarou FUKUDA";
 	
@@ -49,7 +49,7 @@
 	<h2 id="download">miChecker に関する問い合わせ</h2>
     <p>
     miCheckerについての技術的な質問や問い合わせは、ACTFプロジェクトの<a href="https://www.eclipse.org/forums/index.php/f/136/">フォーラム</a>で行うことが出来ます。  <br/>
-    もし、ACTF に起因する問題を発見した場合は、次の<a href="https://bugs.eclipse.org/bugs/enter_bug.cgi?product=ACTF">Eclipse ACTFプロジェクトのGithubレポジトリ</a>より報告を行うことが出来ます。<br/>
+    もし、ACTF に起因する問題を発見した場合は、次の<a href="https://github.com/eclipse-actf/org.eclipse.actf/issues">Eclipse ACTFプロジェクトのGithubレポジトリ</a>より報告を行うことが出来ます。<br/>
     フォーラム、問題報告サイトのいずれにおいても、日本語での対応も可能ですので、是非ご活用ください。
     </p>
     <ul>
