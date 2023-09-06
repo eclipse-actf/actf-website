@@ -46,7 +46,7 @@
 	<p><a href="miChecker_dev_env.pdf">開発手順書(PDF形式)</a>	
 	</p>
 		
-	<h2 id="download">miChecker に関する問い合わせ</h2>
+	<h2 id="contact">miChecker に関する問い合わせ</h2>
     <p>
     miCheckerについての技術的な質問や問い合わせは、ACTFプロジェクトの<a href="https://www.eclipse.org/forums/index.php/f/136/">フォーラム</a>で行うことが出来ます。  <br/>
     もし、ACTF に起因する問題を発見した場合は、次の<a href="https://github.com/eclipse-actf/org.eclipse.actf/issues">Eclipse ACTFプロジェクトのGithubレポジトリ</a>より報告を行うことが出来ます。<br/>
