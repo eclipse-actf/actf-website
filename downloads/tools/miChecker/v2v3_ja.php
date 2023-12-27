@@ -129,6 +129,12 @@
       <li>フォーラムへの投稿にはEclipseのアカウントが必要になります。初めての際は<a href="https://accounts.eclipse.org/user/register">登録ページ</a>より、アカウントの作成をお願いします。 </li>
       <li>問題報告にはGithubのアカウントが必要になります。初めての際はGithubへのSign Up（アカウントの作成）をお願いします。 </li>
     </ul>
+
+	<hr>
+
+	<p>
+	<a href="index_ja.php">miCheckerについて</a>
+	</p>
 		
 </div>
 

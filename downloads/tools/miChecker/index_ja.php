@@ -49,6 +49,13 @@
 	から入手してください。また、miCheckerの開発手順等は<a href="build_ja.php">こちら</a>で公開されていますので、あわせて是非ご活用下さい。
     </p>
 
+	<h2>miChecker v3の評価ルール変更点</h2>
+	<p>miChecker v2からv3への移行では、miChecker内で利用しているブラウザをサポートが終了したInternet Explorer相当のブラウザから、 
+	Microsoft Edge相当のブラウザに変更するなどの実行環境の大幅な更新に加え、評価ルールの詳細化および調整を実施しています。
+	評価ルールの変更点についてのまとめを用意していますので、ご参照ください。</p>
+	<p><a href="v2v3_ja.php">miChecker v3の評価ルール変更点</a>	
+	</p>
+
     <h2 id="contact">miChecker に関する問い合わせ</h2>
     <p>
     miCheckerについての技術的な質問や問い合わせは、ACTFプロジェクトの<a href="https://www.eclipse.org/forums/index.php/f/136/">フォーラム</a>で行うことが出来ます。  <br/>

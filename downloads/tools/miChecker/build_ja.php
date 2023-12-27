@@ -41,10 +41,18 @@
 	総務省よりEclipse　Accessibility Tools Framework (ACTF)に寄贈され、一般に公開されると共に、継続的な改善が実施されています。
 	</p>
 	
-	<h1>miChecker 開発手順</h1>
+	<h2>miChecker 開発手順</h2>
 	<p>以下の開発手順書に、miCheckerのソースコード入手方法、開発手順および問い合わせ先などをまとめてありますので、是非ご活用ください。</p>
 	<p><a href="miChecker_dev_env.pdf">開発手順書(PDF形式)</a>	
 	</p>
+
+	<h2>miChecker v3の評価ルール変更点</h2>
+	<p>miChecker v2からv3への移行では、miChecker内で利用しているブラウザをサポートが終了したInternet Explorer相当のブラウザから、 
+	Microsoft Edge相当のブラウザに変更するなどの実行環境の大幅な更新に加え、評価ルールの詳細化および調整を実施しています。
+	評価ルールの変更点についてのまとめを用意していますので、ご参照ください。</p>
+	<p><a href="v2v3_ja.php">miChecker v3の評価ルール変更点</a>	
+	</p>
+
 		
 	<h2 id="contact">miChecker に関する問い合わせ</h2>
     <p>
@@ -57,12 +65,13 @@
       <li>問題報告にはGithubのアカウントが必要になります。初めての際はGithubへのSign Up（アカウントの作成）をお願いします。 </li>
     </ul>
 	
-
+<!--
 	<hr>
 		
 	<div style="text-align:right">
 	<a href="build.php">Instructions in English</a>
 	</div>
+-->	
 	
 </div>
 
