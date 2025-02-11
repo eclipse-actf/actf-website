@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="keywords" content="eclipse, ACTF, Accessibility Tools Framework">
+<title>ACTF - miChecker 開発手順</title>
+<link rel="stylesheet" href="../../../actf-base.css" type="text/css">
+</head>
+<body>
+	<div id="top" class="container">
+		<header id="header-wrapper" lang="en">
+			<a href="https://www.eclipse.org" class="image">
+				<img alt="Eclipse Foundation" width="150"
+					src="https://www.eclipse.org/eclipse.org-common/themes/solstice/public/images/logo/eclipse-foundation-grey-orange.svg">
+			</a>
+			<span>Eclipse Accessibility Tools Framework</span>
+		</header>
+		<hr>
+
+		<main id="main-content">
+			<article>
+				<h1>miChecker について</h1>
+				<p>
+					<a href="http://www.soumu.go.jp/main_sosiki/joho_tsusin/b_free/michecker.html">「みんなのアクセシビリティ評価ツールmiChecker」</a>
+					（以下、miChecker）は、JIS X 8341-3:2016（高齢者・障害者等配慮設計指針－情報通信における機器，ソフトウェア及びサービス－第３部：ウェブコンテンツ）に
+					基づくウェブアクセシビリティ対応の取組を支援するために、総務省が開発し、提供するアクセシビリティ評価ツールです。
+					その第一の目的はアクセシビリティ検証作業の支援です。加えて、付属文書等に沿って検証作業を行うことで、関連する知識の習得が可能です。
+				</p>
+				<p>miCheckerのソースコードは、その機能・性能・品質の向上と、アクセシブルなウェブの普及を目的として、 総務省よりEclipse Accessibility Tools Framework
+					(ACTF)に寄贈され、一般に公開されると共に、継続的な改善が実施されています。</p>
+
+				<h2>miChecker 開発手順</h2>
+				<p>以下の開発手順書に、miCheckerのソースコード入手方法、開発手順および問い合わせ先などをまとめてありますので、是非ご活用ください。</p>
+				<p>
+					<a href="miChecker_dev_env.pdf">開発手順書(PDF形式)</a>
+				</p>
+
+				<h2>miChecker v3の評価ルール変更点</h2>
+				<p>miChecker v2からv3への移行では、miChecker内で利用しているブラウザをサポートが終了したInternet Explorer相当のブラウザから、 Microsoft
+					Edge相当のブラウザに変更するなどの実行環境の大幅な更新に加え、評価ルールの詳細化および調整を実施しています。 評価ルールの変更点についてのまとめを用意していますので、ご参照ください。</p>
+				<p>
+					<a href="v2v3_ja.html">miChecker v3の評価ルール変更点</a>
+				</p>
+
+
+				<h2 id="contact">miChecker に関する問い合わせ</h2>
+				<p>
+					<!-- TBD use github discussions
+					miCheckerについての技術的な質問や問い合わせは、ACTFプロジェクトの
+					<a href="https://www.eclipse.org/forums/index.php/f/136/">フォーラム</a>
+					で行うことが出来ます。
+					<br />
+					  -->
+					もし、ACTF に起因する問題を発見した場合は、
+					<a href="https://github.com/eclipse-actf/org.eclipse.actf/issues">Eclipse ACTFプロジェクトのGithubレポジトリ</a>
+					より報告を行うことが出来ます。
+					<!-- <br />-->
+					日本語での対応も可能ですので、是非ご活用ください。
+				</p>
+				<ul>
+					<!-- 
+					<li>
+						フォーラムへの投稿にはEclipseのアカウントが必要になります。初めての際は
+						<a href="https://accounts.eclipse.org/user/register">登録ページ</a>
+						より、アカウントの作成をお願いします。
+					</li>
+					-->
+					<li>問題報告にはGithubのアカウントが必要になります。初めての際はGithubへのSign Up（アカウントの作成）をお願いします。</li>
+				</ul>
+			</article>
+		</main>
+		<div>
+			<p id="back-to-top">
+				<a href="#top">先頭に戻る</a>
+			</p>
+			<hr>
+			<footer id="footer">
+				<div id="copyright">
+					<p id="copyright-text" lang="en">Copyright © Eclipse Accessibility Tools Framework Project. All Rights
+						Reserved.</p>
+				</div>
+			</footer>
+		</div>
+	</div>
+</body>
+</html>

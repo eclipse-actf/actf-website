@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="keywords" content="eclipse, ACTF, Accessibility Tools Framework">
+<title>ACTF Contributors Information</title>
+<link rel="stylesheet" href="actf-base.css" type="text/css">
+</head>
+<body>
+	<div id="top" class="container">
+		<header id="header-wrapper">
+			<a href="https://www.eclipse.org" class="image">
+				<img alt="Eclipse Foundation" width="150"
+					src="https://www.eclipse.org/eclipse.org-common/themes/solstice/public/images/logo/eclipse-foundation-grey-orange.svg">
+			</a>
+			<span>Eclipse Accessibility Tools Framework</span>
+		</header>
+		<hr>
+
+		<main id="main-content">
+			<article>
+				<h1>ACTF Contributors Information</h1>
+				<section>
+					<h2>Git Repository</h2>
+					<p>
+						The source code of the ACTF project can be found in the Git Repository. To access repository list, please visit
+						&quot;
+						<a href="https://projects.eclipse.org/projects/technology.actf/developer">Developer Resources</a>
+						&quot; tab of
+						<a href="http://projects.eclipse.org/projects/technology.actf">ACTF project page</a>
+						.
+					</p>
+					<p>
+						For more details to use Git in Eclipse, please visit
+						<a href="https://github.com/eclipse-egit/egit/wiki/User-Guide">EGit User Guide</a>
+						page.
+					</p>
+				</section>
+
+				<section>
+					<h2>Development Guidelines</h2>
+					<h3 id="naming">1. Naming Conventions</h3>
+					<p>
+						Naming Conventions in the ACTF project follow the
+						<a href="https://github.com/eclipse-platform/eclipse.platform/blob/master/docs/Naming_Conventions.md">Eclipse
+							Naming Conventions</a>
+						except for Java packages containing 'internal', 'tests', or 'examples'.
+					</p>
+
+					<h4 id="package">Java Packages</h4>
+					<p>One of the main goals of this naming convention is to make it easy to find the component to which any given
+						class belongs. The general form of java package names is as follows:</p>
+					<ul>
+						<li>org.eclipse.actf.&lt;component&gt;[.*]</li>
+					</ul>
+					<p id="group">Currently, ACTF includes the components listed below. This table also shows the subcomponents
+						within each ACTF component.</p>
+					<table class="basic">
+						<tr>
+							<th class="basic" scope="col">Group</th>
+							<th class="basic" scope="col">Component name</th>
+							<th class="basic" scope="col">Description</th>
+						</tr>
+						<tr>
+							<th class="basic" rowspan="6" scope="row">common</th>
+							<td class="basic">accservice</td>
+							<td class="basic">(deprecated) includes components for accessing native accessibility architectures and APIs</td>
+						</tr>
+						<tr>
+							<td class="basic">core</td>
+							<td class="basic">
+								<i>is reserved for future use</i>
+							</td>
+						</tr>
+						<tr>
+							<td class="basic">model</td>
+							<td class="basic">includes components to support access to runtime properties of GUI components, document elements, and
+								other runtime structures. It also includes typical application plugins as Editor Extensions.</td>
+						</tr>
+						<tr>
+							<td class="basic">mediator</td>
+							<td class="basic">includes mediator services.</td>
+						</tr>
+						<tr>
+							<td class="basic">repository</td>
+							<td class="basic">(deprecated) includes repository services.</td>
+						</tr>
+						<tr>
+							<td class="basic">util</td>
+							<td class="basic">includes common utilities for other ACTF components.</td>
+						</tr>
+						<tr>
+							<th class="basic" scope="row">ai</th>
+							<td class="basic">ai</td>
+							<td class="basic">includes components for adaptive interfaces.</td>
+						</tr>
+						<tr>
+							<th class="basic" scope="row">examples</th>
+							<td class="basic">examples</td>
+							<td class="basic">includes exemplary applications.</td>
+						</tr>
+						<tr>
+							<th class="basic" scope="row">validation</th>
+							<td class="basic">validation</td>
+							<td class="basic">includes validation engine, rule manager, interfaces for and base implementations of rule sets and so
+								on.</td>
+						</tr>
+						<tr>
+							<th class="basic" rowspan="2" scope="row">visualization</th>
+							<td class="basic">report</td>
+							<td class="basic">includes report generators.</td>
+						</tr>
+						<tr>
+							<td class="basic">visualization</td>
+							<td class="basic">includes accessibility/usability visualization engines.</td>
+						</tr>
+					</table>
+
+					<p>
+						In the ACTF project, the reserved words 'internal', 'tests', or 'examples' may appear after the component name.
+						For example,
+						<b>org.eclipse.actf.validation.tests</b>
+						indicates test cases that are used for the validation component. The preferred usage is to put the reserved names
+						in the fifth position, leaving the fourth position for the component name. In addition to this, each component has
+						its own ui components in the ACTF project. So, the word "ui" may appear after the component name as well.
+					</p>
+
+					<p>The names of internal/tests/examples/ui packages in ACTF will be:</p>
+					<ul>
+						<li>org.eclipse.actf.&lt;component&gt;.internal[.*] - internal packages of &lt;component&gt;</li>
+						<li>org.eclipse.actf.&lt;component&gt;.tests[.*] - test packages of &lt;component&gt;</li>
+						<li>org.eclipse.actf.&lt;component&gt;.examples[.*] - examples of &lt;component&gt;</li>
+						<li>org.eclipse.actf.&lt;component&gt;.ui[.*] - ui components of &lt;component&gt;</li>
+					</ul>
+
+					<h3>2. Coding conventions</h3>
+					<p>The ACTF project uses the built-in Java-convention in Eclipse.</p>
+
+					<h3>3. Namespace URI conventions</h3>
+					<p>To avoid unexpected propagation, namespace URIs in ACTF project will be defined as follows:</p>
+					<ul>
+						<li>http://www.eclipse.org/projects/actf/&lt;component&gt;[/*]</li>
+					</ul>
+					<p>
+						If you need to create new namespaces, please submit a request to
+						<a href="https://accounts.eclipse.org/mailing-list/actf-dev">actf-dev mailing list</a>
+						.
+					</p>
+
+					<h3 id="API">4. APIs</h3>
+					<p>
+						In ACTF, all internal APIs are in internal packages and currently are not exported to others. (see also
+						<a href="#naming">Naming Conventions</a>
+						)
+					</p>
+				</section>
+			</article>
+		</main>
+		<div>
+			<p id="back-to-top">
+				<a href="#top">Back to the top</a>
+			</p>
+			<hr>
+			<footer id="footer">
+				<div id="copyright">
+					<p id="copyright-text">Copyright © Eclipse Accessibility Tools Framework Project. All Rights Reserved.</p>
+				</div>
+			</footer>
+		</div>
+	</div>
+</body>
+</html>
